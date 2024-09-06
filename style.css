@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container form{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.container form input::placeholder{
+    color: rgb(240, 214, 214);
+}
+.container h1{
+    color: white;
+    margin: 15px;
+    
+}
+
+.information input{
+    width: 300px;
+    height: 50px;
+    margin-inline:10px ;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+
+}
+.msg {
+    color: white;
+    width: 800px;
+    margin-left: 85px;
+    margin-bottom: 0px;
+}
+textarea{
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+    background: transparent;
+    border: none;
+    margin-right: 150px;
+    border-bottom: 2px white;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    border-bottom: 2px solid white;
+    outline: none;
+    margin-left: 130px;
+
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: white;
+
+    color: black;
+    border: none;
+    outline: none;
+    margin-right: 550px;
+    border-radius: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    text-decoration: line;
+    transition: 0.5s ;
+}
